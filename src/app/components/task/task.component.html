@@ -1,0 +1,7 @@
+<!-- Refactor with structure directives and conditional styles -->
+<h5>Title: {{task?.title}}</h5>
+<h6>Description:  {{task?.description}} </h6>
+
+<p>Complete: {{task?.Completed ? "Completed": "Incomplete"}} </p>
+
+<button (click)="deleteTask()">X</button>
